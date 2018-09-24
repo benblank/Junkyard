@@ -991,8 +991,8 @@ function Junkyard:IsJunk(id_or_link, slot)
 			return nil
 		end
 
-		enchanted = tonumber(enchanted) > 0
-		gemmed = tonumber(gem1) > 0 or tonumber(gem2) > 0 or tonumber(gem3) > 0 or tonumber(gem4) > 0
+		enchanted = (tonumber(enchanted) or 0) > 0
+		gemmed = (tonumber(gem1) or 0) > 0 or (tonumber(gem2) or 0) > 0 or (tonumber(gem3) or 0) > 0 or (tonumber(gem4) or 0) > 0
 		quality, _, _, ltype, lsubtype, _, loc, _, price = select(3, GetItemInfo(id))
 	else
 		-- IsJunk("7073")
