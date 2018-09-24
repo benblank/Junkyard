@@ -54,6 +54,12 @@ Junkyard.Armor = {
 		["Relic"] = 1000,
 	},
 
+	DEMONHUNTER = {
+		["Cloth"] = -1,
+		["Leather"] = 1000,
+		["Miscellaneous"] = 1000,
+	},
+
 	DRUID = {
 		["Cloth"] = -1,
 		["Idols"] = 1000,
@@ -70,6 +76,12 @@ Junkyard.Armor = {
 
 	MAGE = {
 		["Cloth"] = 1000,
+		["Miscellaneous"] = 1000,
+	},
+
+	MONK = {
+		["Cloth"] = -1,
+		["Leather"] = 1000,
 		["Miscellaneous"] = 1000,
 	},
 
@@ -137,6 +149,7 @@ Junkyard.Weapon = {
 		["Two-Handed Maces"] = true,
 		["Two-Handed Swords"] = true,
 		["Wands"] = true,
+		["Warglaives"] = true,
 	},
 
 	DEATHKNIGHT = {
@@ -149,6 +162,15 @@ Junkyard.Weapon = {
 		["Two-Handed Axes"] = true,
 		["Two-Handed Maces"] = true,
 		["Two-Handed Swords"] = true,
+	},
+
+	DEMONHUNTER = {
+		["Fishing Poles"] = true,
+		["Fist Weapons"] = true,
+		["Miscellaneous"] = true,
+		["One-Handed Axes"] = true,
+		["One-Handed Swords"] = true,
+		["Warglaives"] = true,
 	},
 
 	DRUID = {
@@ -186,6 +208,17 @@ Junkyard.Weapon = {
 		["One-Handed Swords"] = true,
 		["Staves"] = true,
 		["Wands"] = true,
+	},
+
+	MONK = {
+		["Fishing Poles"] = true,
+		["Fist Weapons"] = true,
+		["Miscellaneous"] = true,
+		["One-Handed Axes"] = true,
+		["One-Handed Maces"] = true,
+		["One-Handed Swords"] = true,
+		["Polearms"] = true,
+		["Staves"] = true,
 	},
 
 	PALADIN = {
