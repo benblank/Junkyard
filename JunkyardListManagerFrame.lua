@@ -53,7 +53,7 @@ end
 function JunkyardListManagerFrame_OnHide(self)
 	items = {}
 
-	PlaySound("igMainMenuContinue");
+	PlaySound(SOUNDKIT.IG_MAINMENU_CONTINUE);
 end
 
 function JunkyardListManagerFrame_OnLoad(self)

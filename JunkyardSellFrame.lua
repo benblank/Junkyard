@@ -49,7 +49,7 @@ end
 function JunkyardSellFrame_OnHide(self)
 	items = {}
 
-	PlaySound("igMainMenuContinue");
+	PlaySound(SOUNDKIT.IG_MAINMENU_CONTINUE);
 end
 
 function JunkyardSellFrame_OnLoad(self)
