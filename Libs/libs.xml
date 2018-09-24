@@ -13,5 +13,5 @@
 	<Include file="Ace3\AceHook-3.0\AceHook-3.0.xml"/>
 	<Include file="Ace3\AceTimer-3.0\AceTimer-3.0.xml"/>
 	<Include file="LibBabble-Inventory-3.0\lib.xml"/>
-	<Script file="LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
+	<Script file="libdatabroker-1-1\LibDataBroker-1.1.lua"/>
 </Ui>
